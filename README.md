@@ -1,3 +1,3 @@
 # Maze generation & solving
 
-Visit  to see the maze generator and solver!
+Visit https://nkd732.github.io/Maze-generation-solving/ to see the maze generator and solver!
