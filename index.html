@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Maze</title>
+
+    <link rel="stylesheet" href="styles/maze.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/newMaze.css">
+    <link rel="stylesheet" href="styles/solveMaze.css">
+    <link rel="stylesheet" href="styles/add.css">
+</head>
+
+<body>
+    <div class = "createNewMaze">
+        <button class = "buttons createButton">Create new maze</button>
+    </div>
+
+    <div class = "genNewMaze">
+        <br><br>
+        <span class = "generatorOptions">Generator Options</span>
+        <br>
+        <div class = "genSpeed">
+            <input type = "range" min = "5" max = "25" class = "genSpeedInput">
+            <label for = "genSpeedInput" class = "speedText">Generator Speed</label>
+        </div>
+        <br>
+        <div class = "genSize">
+            <input type = "number" step = "5" min = "10" max = "30" placeholder = "Enter the size of the Maze" class = "genSizeInput">
+        </div>
+        <br>
+        <div class = "genType">
+            <button class = "buttons genButton primButton">Prim's <br> Algorithm</button>
+            <button class = "buttons genButton kruskalButton">Kruskal's <br> Algorithm</button>
+            <button class = "buttons genButton dfsGenButton">Depth First <br> Search</button>
+        </div>
+    </div>
+
+    <div class = "add initial">
+        <button class = "buttons selectInitialButton">Select initial point</button>
+        <button class = "buttons setInitialButton">Set as initial point</button>
+    </div>
+    
+    <div class = "add goal"> 
+        <button class = "buttons selectGoalButton">Select goal point</button>
+        <button class = "buttons setGoalButton">Set as goal point</button>
+        <button class = "buttons solverButton solve">Solver Options</button>
+    </div>
+
+    <div class = "solveMaze">
+        <br><br>
+        <span class = "solverOptions">Solver Options</span>
+        <br>
+        <div class = "solverSpeed">
+            <input type = "range" min = "5" max = "25" class = "solverSpeedInput">
+            <label for = "solverSpeedInput" class = "speedText">Solver Speed</label>
+        </div>
+        <br>
+        <div class = "solverType">
+            <button class = "buttons solverButton bfsButton">Breadth First <br> Search</button>
+            <button class = "buttons solverButton aStarButton">A* Search</button>
+            <button class = "buttons solverButton dfsSolveButton">Depth First <br> Search</button>
+        </div>     
+    </div>
+
+    <canvas class = "maze"></canvas>
+    
+
+    <script type = module src = "js/main.js"></script>
+</body>
+</html>

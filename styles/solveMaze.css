@@ -1,0 +1,43 @@
+.solveMaze {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 230px;
+    left: 900px;
+    border: 3px solid #3B3C37;
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+    background-color: #3B3C37;
+}
+
+.solverSpeed {
+    position: absolute;
+    top: 110px;
+}
+
+.solverType {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 170px;
+    left: 10px;
+    right: 10px;
+}
+
+.solverOptions {
+    font-family: Arial;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration:underline;
+    text-decoration-color: white;
+}
+
+.speedText {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}

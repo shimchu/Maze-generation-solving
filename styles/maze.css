@@ -1,0 +1,15 @@
+.maze {
+    position: fixed;
+    top: 60px;
+    left: 115px;
+    
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3B3C37;
+ 
+    
+}
+
+body {
+    background-color: rgb(224, 252, 252);
+}

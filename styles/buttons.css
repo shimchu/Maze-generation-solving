@@ -1,0 +1,73 @@
+.genSizeInput {
+    height: 30px;
+    width: 200px;
+    border-radius: 6px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: green;
+    font-size: 15px;
+    text-align: center;
+}
+
+.genSizeInput::-webkit-inner-spin-button {
+    height: 30px;
+} 
+
+.buttons {
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 6px;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 3px 3px 3px rgb(165, 165, 165);
+    cursor: pointer;
+}
+
+.buttons:hover {
+    opacity: 0.9;
+}
+
+.buttons:active {
+    opacity: 0.6;
+}
+
+.genButton {
+    background-color: #16AE58;
+    border-color: #16AE58;
+    padding: 5px 20px 5px 20px;
+    line-height: 24px;
+}
+
+.selectInitialButton {
+    background-color:rgb(56, 247, 183);
+    border-color: rgb(56, 249, 185);
+}
+
+.setInitialButton {
+    background-color: #996FD6;
+    border-color: #996FD6;
+}
+
+.selectGoalButton {
+    background-color: #FFD700;
+    border-color: #FFD700;
+}
+
+.setGoalButton {
+    background-color: #996FD6;
+    border-color: #996FD6;
+}
+
+.solverButton {
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    padding: 5px 20px 5px 20px;
+    line-height: 24px;
+}
+
+.createButton {
+    background-color: coral;
+    border-color: coral;
+}

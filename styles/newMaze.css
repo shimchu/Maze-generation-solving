@@ -1,0 +1,56 @@
+.createNewMaze {
+    position: fixed;
+    top: 40px;
+    right: 320px; 
+    display: none; 
+}
+
+.genNewMaze {
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 160px;
+    left: 900px;
+    border: 3px solid #3B3C37;
+    border-radius: 10px;
+    height: 450px;
+    width: 500px;
+    background-color: #3B3C37;
+
+}
+
+.genSpeed {
+    position: absolute;
+    top: 110px;
+}
+
+.genSize {
+    position: absolute;
+    top: 200px;
+}
+
+.genType {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 300px;
+    left: 10px;
+    right: 10px;
+}
+
+.generatorOptions {
+    font-family: Arial;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration:underline;
+    text-decoration-color: white;
+}
+
+.speedText {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
